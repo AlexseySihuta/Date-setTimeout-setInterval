@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .showtime{
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 400px;
+            height: 100px;
+            font-size: 40px;
+            border: 1px solid #000;
+            border-radius: 20px;
+            background-color: rgb(32, 218, 57);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="number" placeholder="write seconds" class="seconds">
+    <input type="number" placeholder="write minutes" class="minutes">
+    <input type="number" placeholder="write hours" class="hours">
+
+    <button class="start">start</button>
+    <button class="stop">stop</button>
+    <button class="reset">reset</button>
+
+    <div class="showtime">00:00:00</div>
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
