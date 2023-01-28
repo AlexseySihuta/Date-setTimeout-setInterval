@@ -58,7 +58,7 @@ function startFunction() {
             valueMinutes = 59;
             valueSeconds = 59;
         }
-    }, 400)
+    }, 1000)
     startButton.disabled = true;
 }
 function stopFunction() {
